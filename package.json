@@ -1,0 +1,21 @@
+{
+  "name": "vws",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsup src/server.ts src/client.ts --dts --format esm,cjs"
+  },
+  "keywords": [
+    "websocket",
+    "vshakitskiy"
+  ],
+  "author": "vshakitskiy",
+  "license": "ISC",
+  "devDependencies": {
+    "tsup": "^8.1.0",
+    "typescript": "^5.4.5"
+  }
+}
